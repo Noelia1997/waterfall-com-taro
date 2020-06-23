@@ -1,36 +1,18 @@
-.goods{
-  /*border:1px solid red;*/
-  display: flex;
-  flex-flow: row nowrap;
-  text-align: center;
-  justify-content: space-around;
-
-}
-.goods-right{
-  /*border:1px solid green;*/
+.goods-right {
   flex: 1;
-
-  margin: 20rpx 40rpx 10rpx 0;
-  text-align: center;
 }
-.goods-left{
-  /*border:1px solid red;*/
+.goods-left {
   flex: 1;
-  margin: 20rpx 0 10rpx 40rpx;
-  text-align: center;
-
 }
-.goods-item{
+.goods-item {
   width: 300rpx;
   background-color: #fff;
-  margin : 20rpx;
+  margin: 20rpx;
   border-radius: 10rpx;
   padding: 20rpx;
-  border:1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
-.goods-img{
+.goods-img {
   width: 100%;
-  /*width:375rpx;*/
-  /*width: auto;*/
 }
